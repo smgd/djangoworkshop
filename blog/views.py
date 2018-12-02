@@ -8,6 +8,3 @@ def home(request):
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
-
-def alisapisa(request):
-    return HttpResponse('<h1>Alisa Pisa!</h1>')
